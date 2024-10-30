@@ -1,0 +1,14 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,700&display=swap');
+
+:root {
+  font-family: "Roboto", serif;
+  font-weight: 700;
+  font-style: italic;
+
+  color: #fff;
+  background-color: #2B2B2B;
+}
+
+a {
+  text-decoration: none;
+}
