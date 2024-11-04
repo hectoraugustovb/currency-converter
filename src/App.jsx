@@ -1,7 +1,11 @@
+import Conversor from "./components/Conversor/Conversor"
+import Header from "./components/Header/Header"
+
 function App() {
   return (
     <>
-      <h1>Conversor de moedas</h1>
+      <Header />
+      <Conversor />
     </>
   )
 }
