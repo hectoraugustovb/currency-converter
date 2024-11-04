@@ -1,0 +1,52 @@
+.conversor {
+    background-color: #505050;
+    border-radius: 25px;
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    text-align: center;
+
+    width: 50%;
+    height: 50vh;
+
+    margin: 5em auto;
+
+    .currencys {
+        margin-top: 2em;
+
+        font-size: 15pt;
+    }
+
+    .conversion {
+        margin-bottom: 5em;
+
+        input, select {
+            background-color: #313131;
+            color: #fff;
+    
+            height: 2.7em;
+            border-style: none;
+            margin: 0 0.5em;
+            padding: 0 0.8em;
+        }
+    
+        input {
+            border-radius: 8px;
+        }
+    
+        select {
+            border-radius: 8px;
+            width: 45%;
+        }
+
+        .current {
+            margin-bottom: 2em;
+        }
+
+        .convert input {
+            color: #c4c3c3;
+            cursor: initial;
+        }
+    }
+}
